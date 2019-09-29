@@ -1,0 +1,59 @@
+//ÝF KOÞULU
+
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset=UTF-8>
+    </head>
+    <body>
+    	<script>
+    		var a,b;
+        	a=70;
+        	b=30;
+        	c=a+b-5*8/2 ;
+            if(a<70){ //< , > , <= , >= , != , ==
+            	document.write("küçük<br>");
+            }
+            else if(a==70){
+            	document.write("eþittir<br>");
+            }
+            else{
+            	document.write("büyük<br>");
+            }
+    		document.write("merhaba ogo<br> sonuç :");
+        	document.write(c);
+    	</script>
+    	<button onclick='document.getElementById("mesaj").innerHTML="YAZDIM";'>YAZ</button>
+        <button onclick='document.getElementById("mesaj").innerHTML="SÝLDÝM";' >SÝL</button>
+		<p id="mesaj"></p>
+	</body>
+</html>
+
+
+//FOR DÖNGÜSÜ
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<html>
+	<head>
+    	<meta charset=UTF-8>
+    </head>
+    <body>
+    	<script>
+        
+        var a=70,b=20,toplam=0;
+        for(i=0;i<10;i++)
+        {
+        	document.write(i);
+            document.write("<hr>");
+            toplam+=i;
+        }
+        document.write(toplam);
+    	</script>
+   	</body>
+</html>
+
+
+
+//FONKSÝYONLAR
+
